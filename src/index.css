@@ -74,9 +74,9 @@ html.lenis, html.lenis body {
   /* background-color: #1a1a1d; */
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0px;
-}
+} */
 
 
 .title .outer {
