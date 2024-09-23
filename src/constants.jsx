@@ -31,10 +31,8 @@ export const PROJECTS = [
     id: 3,
     name: "CHATGLIDE",
     description: "real time ChatApp",
-    githubLink: "https://github.com/user/task-management-tool",
+    githubLink: "https://github.com/revanthuradi/CHAT-GLIDE",
   },
-
-
 ]
 
 export const ABOUT = [
@@ -42,27 +40,8 @@ export const ABOUT = [
   "Additionally, I have experience with SQL databases, which expands your flexibility in handling relational data when needed. I have a strong ability to manage and integrate various tools and frameworks, making you highly adaptable in different project environments. With your keen eye for detail and problem-solving skills, I bring a well-rounded approach to delivering quality software solutions."
 ]
 
-export const SKILLS = ["HTML", 'CSS', 'JAVASCRIPT', 'AJAX', 'JQUERY', 'REACTJS', 'TAILWINDCSS', 'REDUX', 'NODEJS', 'EXPRESSJS', 'MONGODB', 'MONGOOSE','FRAMERMOTION','JWT','POSTMAN']
+export const SKILLS = ["HTML", 'CSS', 'JAVASCRIPT', 'AJAX', 'JQUERY', 'REACTJS', 'TAILWINDCSS', 'REDUX', 'NODEJS', 'EXPRESSJS', 'MONGODB', 'MONGOOSE', 'FRAMERMOTION', 'JWT', 'POSTMAN']
 
-
-
-
-export const EDUCATION = [
-  {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "September 2012 - June 2014",
-    description:
-      "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
-  },
-  {
-    degree: "Bachelor of Science in Information Technology",
-    institution: "University of California, Berkeley",
-    duration: "September 2008 - June 2012",
-    description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
-  },
-];
 
 export const SOCIAL_MEDIA_LINKS = [
   {
