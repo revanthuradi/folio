@@ -21,7 +21,7 @@ body{
   /* font-family: "Bebas Neue", sans-serif; */
   color: #777777;
   
-  background-color: #111111;
+  background-color: #0c0c0c;
   
 }
 /* .bg-img{
@@ -74,9 +74,9 @@ html.lenis, html.lenis body {
   /* background-color: #1a1a1d; */
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 0px;
-} */
+}
 
 
 .title .outer {
