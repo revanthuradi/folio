@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+*{
+  /* cursor: none; */
+  margin : 0;
+  padding: 0;
+}
+body{
+  background-color: #000000;
+  height: 100vh;
+  /* font-family: "Space Grotesk", sans-serif; */
+  font-family: "Oswald", sans-serif;
+  /* font-family: "Bebas Neue", sans-serif; */
+  color: #777777;
+  
+  background-color: #111111;
+  
+}
+/* .bg-img{
+  background-image: url('./assets/bg-img5.png');
+} */
+
+@keyframes rotate360 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+
+
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+  overflow: hidden;
+  /* background-color: #1a1a1d; */
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  overflow: hidden;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  /* background-color: #1a1a1d; */
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+
+.title .outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #CB450C;
+  overflow: hidden;
+  transform: translate(-100%);
+}
+  .title .outer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #CB450C;
+    overflow: hidden;
+    transform: translateY(100%);
+  }
+
+  .title .inner {
+    display: inline-block;
+    transform: translateY(-100%);
+  }
+
+  .title .outer,
+  .title .inner {
+    transition: transform 0.25s cubic-bezier(0.29, 0.73, 0.74, 1.02);
+  }
+
+  .title:hover .outer,
+  .title:hover .inner {
+    transform: translateY(0);
+  }
