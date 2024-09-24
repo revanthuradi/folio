@@ -28,11 +28,11 @@ const Hero = () => {
                 </div>
                 <div>
                     <div className=" ">
-                        <a href="#contact" className="relative inline-flex items-center justify-center px-4 py-2  lg:px-7 text-sm overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border border-textColor rounded-full shadow-md group">
-                            <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-y-full bg-orange group-hover:translate-y-0 ease">
-                                <FaArrowCircleDown fontSize={20} />
+                        <a href="#contact" className="relative inline-flex items-center justify-center px-4 py-2  lg:px-7  overflow-hidden font-medium  transition duration-300 ease-out border border-textColor rounded-full shadow-md group">
+                            <span className="absolute inset-0 flex items-center justify-center w-full h-full  duration-300 translate-y-full  group-hover:translate-y-0 ease">
+                                CONTACT
                             </span>
-                            <span className="absolute flex items-center justify-center w-full h-full text-textColor transition-all duration-200 transform group-hover:translate-y-full ease">CONTACT</span>
+                            <span className="absolute flex items-center justify-center w-full h-full text-textColor transition-all duration-200 transform group-hover:-translate-y-full ease">CONTACT</span>
                             <span className="relative invisible">CONTACT</span>
                         </a>
                     </div>
@@ -109,7 +109,7 @@ const Hero = () => {
                             {HERO.description}
                         </span>
                     </m.p>
-            
+
                 </div>
 
             </div>
