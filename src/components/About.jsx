@@ -12,10 +12,10 @@ const About = () => {
     const words = ABOUT[0].split(" ")
     return (
         <section className='mt-32 lg:mt-[250px]  flex flex-col items-center' id='aboutMe'>
-            <h2 className=' text-4xl lg:text-6xl text-center text-textColor  font-bold'>ABOUT ME</h2>
+            <h2 className=' text-4xl md:text-6xl lg:text-6xl text-center text-textColor  font-bold'>ABOUT ME</h2>
             <m.p
                 ref={element}
-                className=' text-2xl lg:mt-20 whitespace-nowrap px-3 lg:px-0  flex flex-wrap gap-1 font-oswald font-thin  lg:w-[70%] mt-12 lg:text-5xl  '>
+                className=' text-2xl lg:mt-20 whitespace-nowrap px-3 lg:px-0  flex flex-wrap gap-1 font-oswald font-thin  lg:w-[70%] md:w-[80%] md:text-3xl md:text-center mt-12 lg:text-5xl  '>
                 {
                     words.map((word, i) => {
                         const start = i / words.length;

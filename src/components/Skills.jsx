@@ -10,10 +10,10 @@ const Skills = () => {
   const words = SKILLS
   return (
     <section className='mt-32 lg:mt-[280px] flex flex-col items-center' id='skills'>
-      <h2 className=' text-4xl lg:text-6xl text-center text-textColor  font-bold'>SKILLS</h2>
+      <h2 className=' text-4xl lg:text-6xl md:text-6xl text-center text-textColor  font-bold'>SKILLS</h2>
       <m.p
         ref={element}
-        className='lg:mt-20 mt-12 flex flex-wrap justify-center text-whitee font-oswald font-thin  lg:w-2/3  lg:text-7xl text-2xl px-4 lg:p-0'>
+        className='lg:mt-20 mt-12 flex flex-wrap justify-center text-whitee font-oswald font-thin  lg:w-2/3 md:text-5xl md:w-2/3  lg:text-7xl text-2xl px-4 lg:p-0'>
         {
           words.map((word, i) => {
             const start = i / words.length;
@@ -35,7 +35,7 @@ export const Word = ({ word, range, progress }) => {
       <span className='absolute opacity-10 text-white'>{word}</span>
       <m.span
         style={{ opacity: opacity }}
-        className='mr-2  lg:mr-5  opacity-0'>{word}</m.span>
+        className='mr-2 md:mr-2  lg:mr-5  opacity-0'>{word}</m.span>
     </span>
   )
 }

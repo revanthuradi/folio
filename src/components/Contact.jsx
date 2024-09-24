@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <section className="mt-36 lg:mt-[250px]  overflow-hidden" id="contact" >
             <div className="flex justify-center ">
-                <p className="text-lg lg:text-3xl text-center px-3 lg lg:w-2/3  ">
+                <p className="text-lg lg:text-3xl md:text-2xl text-center px-3 lg lg:w-2/3  ">
                     Got a question, proposal or project or want to work together on something? <br/>Feel free to reach out.
                 </p>
             </div>
@@ -42,7 +42,7 @@ const Contact = () => {
                 <Divider index={1} />
 
             </div>
-            <div className="mt-16 text-2xl text-whitee lg:text-4xl text-center">
+            <div className="mt-16 text-2xl text-whitee lg:text-4xl md:text-3xl text-center">
                 <h2><a href="mailto: revanthuradi9866@gmail.com"> revanthuradi9866@gmail.com </a></h2>
             </div>
 

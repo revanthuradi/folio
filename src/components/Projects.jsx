@@ -16,7 +16,7 @@ const Projects = () => {
     useEffect(() => {
         const handleResize = () => {
             // Disable animations if screen width is less than 768px (mobile size)
-            if (window.innerWidth < 768) {
+            if (window.innerWidth < 1024) {
                 setDisableAnimation(true);
             } else {
                 setDisableAnimation(false);
@@ -62,14 +62,15 @@ const Projects = () => {
                                         </m.h2>
                                     </m.div>
                                 ) : (
-                                    <div className="py-5 px-4">
-                                        <h2 className={`text-5xl  lg:text-[10vw] ${index % 2 == 0 ? "text-end" : "text-start"} text-wrap`}>
+                                    <div className="py-5 px-4 md ">
+                                        <h2 className={`text-5xl  md:text-[9vw] ${index % 2 == 0 ? "text-end" : "text-start"} text-wrap`}>
                                             {project.name} - <br /> {project.description}
+
                                         </h2>
                                         <div className="flex justify-end">
-                                            <a href={Link.href} className=" inline-flex mt-3 items-center justify-end px-4 py-1  lg:px-7  overflow-hidden font-medium   border border-textColor rounded-full shadow-md group">
+                                            <a href={Link.href} className="text-2xl flex mt-3 items-center justify-end px-4 py-1  lg:px-7  overflow-hidden font-medium   border border-textColor rounded-full shadow-md group">
                                                 <span className="inline">
-                                                    VISIT SITE <GoArrowUpRight fontSize={18} className="inline" />
+                                                    VISIT SITE <GoArrowUpRight  className="inline md:text-3xl tex" />
                                                 </span>
                                             </a>
                                         </div>

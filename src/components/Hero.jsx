@@ -50,7 +50,7 @@ const Hero = () => {
                     }}
                 >
                     <m.div
-                        className="text-7xl  inline-block lg:text-[18vw] scale-y-125 tracking-wide  font-bebas font-semibold  ">
+                        className="text-7xl  inline-block lg:text-[18vw] md:text-[17vw] scale-y-125 tracking-wide  font-bebas font-semibold  ">
                         <span className="hover:text-white">F</span>
                         <span className="hover:text-white">U</span>
                         <span className="hover:text-white">L</span>
@@ -62,7 +62,7 @@ const Hero = () => {
                         style={{ width: scaledProgress, originX: 0.5 }}>
                     </m.span>
                     <m.div
-                        className="text-7xl inline lg:text-[18vw] scale-y-125 tracking-wide font-bebas font-semibold  ">
+                        className="text-7xl inline lg:text-[18vw] md:text-[17vw] scale-y-125 tracking-wide font-bebas font-semibold  ">
                         <span className="hover:text-white">S</span>
                         <span className="hover:text-white ">T</span>
                         <span className="hover:text-white">A</span>
@@ -81,7 +81,7 @@ const Hero = () => {
                             ease: "anticipate",
                             delay: 0.6
                         }}
-                        className="text-7xl overflow-hidden lg:text-[18vw] scale-y-125 tracking-wide font-bebas font-semibold py-5  ">
+                        className="text-7xl overflow-hidden lg:text-[18vw] md:text-[16vw] scale-y-125 tracking-wide font-bebas font-semibold py-5  ">
                         <span className="hover:text-white ">D</span>
                         <span className="hover:text-white">E</span>
                         <span className="hover:text-white">V</span>
@@ -102,7 +102,7 @@ const Hero = () => {
                             ease: "anticipate",
                             delay: 1
                         }}
-                        className="lg:text-2xl font-oswald font-thin  ">
+                        className="lg:text-2xl md:text-2xl md:w-2/3 font-oswald font-thin  ">
                         ABOUT
                         <span className="font-thin ml-2 text-white">
 
