@@ -12,10 +12,8 @@ const Projects = () => {
 
     const [disableAnimation, setDisableAnimation] = useState(false);
 
-    // UseEffect to check screen size and disable animations on mobile
     useEffect(() => {
         const handleResize = () => {
-            // Disable animations if screen width is less than 768px (mobile size)
             if (window.innerWidth < 1024) {
                 setDisableAnimation(true);
             } else {
@@ -23,13 +21,10 @@ const Projects = () => {
             }
         };
 
-        // Check on initial render
         handleResize();
 
-        // Add resize event listener
         window.addEventListener("resize", handleResize);
 
-        // Cleanup listener on unmount
         return () => {
             window.removeEventListener("resize", handleResize);
         };
