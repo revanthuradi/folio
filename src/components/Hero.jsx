@@ -1,6 +1,5 @@
 import { HERO } from "../constants"
 import { motion as m, useScroll, useTransform } from "framer-motion";
-import { FaArrowCircleDown } from "react-icons/fa";
 
 const Hero = () => {
     const { scrollYProgress } = useScroll();
@@ -14,9 +13,9 @@ const Hero = () => {
                     duration: 0.8,
                     ease: "anticipate",
                 }}
-                className="px-12 flex flex-wrap  gap-6 lg:gap-0 justify-between items-center">
+                className="lg:px-12 px-4 lg:flex flex-wrap  gap-6 lg:gap-0 justify-between items-center">
                 <div className=" scale-y-125 flex  gap-20 items-center ">
-                    <h1 className="text-xl  text-white hover:text-orange title">
+                    <h1 className="text-xl font-bold lg:text-3xl tracking-wider  text-white hover:text-orange title">
                         REVANTH URADI
                         <span className="outer" aria-hidden="true">
                             <span className="inner">REVANTH URADI</span>
@@ -27,7 +26,7 @@ const Hero = () => {
                     </h2>
                 </div>
                 <div>
-                    <div className=" ">
+                    <div className=" flex justify-end mt-6 lg:mt-0 ">
                         <a href="#contact" className="relative inline-flex items-center justify-center px-4 py-2  lg:px-7  overflow-hidden font-medium  transition duration-300 ease-out border border-textColor rounded-full shadow-md group">
                             <span className="absolute inset-0 flex items-center justify-center w-full h-full  duration-300 translate-y-full  group-hover:translate-y-0 ease">
                                 CONTACT
@@ -93,7 +92,7 @@ const Hero = () => {
                         <span className="hover:text-white">R</span>
                     </m.h1>
                 </div>
-                <div className="text-xl flex items-center  text-wrap lg:w-[25vw] py-4 ">
+                <div className=" text-wrap lg:flex items-center lg:text lg:w-[25vw] py-4  ">
                     <m.p
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
@@ -102,9 +101,9 @@ const Hero = () => {
                             ease: "anticipate",
                             delay: 1
                         }}
-                        className="lg:text-2xl md:text-2xl md:w-2/3 font-oswald font-thin  ">
+                        className="lg:text-2xl l lg:w-full text-xl md:text-2xl md:w-2/3  font-oswald font-thin">
                         ABOUT
-                        <span className="font-thin ml-2 text-white">
+                        <span className="font-thin ml-2 text-white w-full">
 
                             {HERO.description}
                         </span>
